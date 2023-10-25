@@ -1,6 +1,6 @@
 const theButton = document.getElementById("theButton");
 
-function ranom() {
+function random() {
     let posX = Math.floor(Math.random() * 10) * 10;
     let posY = Math.floor(Math.random() * 10) * 10;
 
