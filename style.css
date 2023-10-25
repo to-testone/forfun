@@ -12,11 +12,15 @@ body {
 header {
     height: 10%;
     text-align: center;
+    user-select: none;
+    border: 1px dashed black;
+    background-image: linear-gradient(to left, #d291bc, #ffdfd3);
 }
 
 main {
-    height: 80%;
+    height: 90%;
     width: 100%;
+    background-image: linear-gradient(to right, #ddf2fd, #e8fbe1);
 }
 
 button {
@@ -25,4 +29,7 @@ button {
     height: 60px;
     font-size: large;
     left: calc(50% - 50px);
+    background-image: linear-gradient(to right, #ff8fab, #ffe5ec);
+    border-radius: 10px;
+    user-select: none;
 }
